@@ -1,0 +1,72 @@
+
+Uses of Git
+
+Git is mainly used for managing and tracking project changes.
+
+Main Uses of Git
+
+1. Track Changes
+Git records every change made in the project files.
+
+Example:
+- If you change login code,
+- Git stores both old and new versions.
+
+2. Backup of Projects
+If files are deleted from your computer accidentally, the project stored in Git can be recovered.
+
+3. Team Collaboration
+Many developers can work on the same project together without affecting each other’s work.
+
+Example:
+- One developer works on frontend
+- Another works on backend
+
+Git combines their work safely.
+
+4. Restore Old Versions
+If new code gives errors, Git allows developers to return to the old working version.
+
+5. Manage Project History
+Git stores:
+- What changes were made
+- Who made the changes
+- When the changes were made
+
+6. Branching Feature
+Developers can create separate branches to test features.
+
+Example:
+- Login branch
+- Payment branch
+- Dashboard branch
+
+This avoids affecting the main project.
+
+7. Easy Code Sharing
+Projects can be uploaded to GitHub and shared with others easily.
+
+8. Helps in Open Source Projects
+Developers around the world use Git to contribute to open-source software.
+
+Real-Time Example
+
+Suppose:
+- You are creating a website.
+- Today the website works properly.
+- Tomorrow you change some code and errors come.
+
+Using Git:
+- You can go back to yesterday’s working code easily.
+
+This is one of the biggest uses of Git.
+
+Simple Conclusion
+
+Git is used to:
+- Save code versions
+- Track changes
+- Restore old files
+- Work in teams
+- Backup projects
+- Manage software development easily

@@ -1,0 +1,281 @@
+
+Git
+
+What is Git?
+
+Git is a Version Control System (VCS) used to track changes in source code and project files.
+
+Git helps developers:
+- Save project versions
+- Track changes
+- Work in teams
+- Restore old code
+- Manage software projects easily
+
+Simple Definition
+
+Git is a tool used to save and manage coding changes step by step.
+
+Why Git is Important
+
+Before Git:
+- Developers saved files like:
+  - project_final
+  - project_final2
+  - latest_final_new
+
+This created confusion.
+
+Git solves this problem by:
+- Tracking every change properly
+- Saving all versions
+- Allowing rollback to old code
+
+Features of Git
+
+1. Version Control
+Git stores every version of the project.
+
+2. Distributed System
+Every developer gets a full copy of the project.
+
+3. Branching
+Developers can create separate branches for features.
+
+Example:
+- Login branch
+- Payment branch
+- Dashboard branch
+
+4. Fast Performance
+Git operations are very fast.
+
+5. Security
+Git uses hashing to protect project history.
+
+Uses of Git
+
+- Software development
+- Team collaboration
+- Project backup
+- Managing code versions
+- Tracking project history
+- Open-source contributions
+
+Advantages of Git
+
+1. Backup of Code
+Even if files are deleted locally, Git history remains.
+
+2. Restore Previous Versions
+You can return to old working code anytime.
+
+3. Team Collaboration
+Multiple developers can work together safely.
+
+4. Tracks Every Change
+Git records:
+- Who changed code
+- What changed
+- When it changed
+
+5. Easy Branch Management
+Developers can test features separately.
+
+What is GitHub?
+
+GitHub is a cloud-based platform used to store Git repositories online.
+
+Simple Definition
+
+GitHub is a website where developers upload and store Git projects.
+
+Why GitHub is Used
+
+Git works locally.
+
+GitHub helps:
+- Store projects online
+- Share projects
+- Collaborate with teams
+- Backup code in cloud
+
+Features of GitHub
+
+1. Online Repository Hosting
+Stores repositories on cloud.
+
+2. Collaboration
+Many developers can work on the same project.
+
+3. Pull Requests
+Developers can suggest code changes.
+
+4. Issue Tracking
+Used to report bugs and tasks.
+
+5. GitHub Actions
+Automates testing and deployment.
+
+Uses of GitHub
+
+- Project hosting
+- Team collaboration
+- Open-source development
+- Portfolio creation
+- Code sharing
+- Backup of projects
+
+Advantages of GitHub
+
+1. Cloud Storage
+Projects are safely stored online.
+
+2. Access Anywhere
+Projects can be accessed from any system.
+
+3. Team Collaboration
+Teams can work together easily.
+
+4. Project Sharing
+Repositories can be shared publicly or privately.
+
+5. Backup and Recovery
+Projects remain safe even if system crashes.
+
+Difference Between Git and GitHub
+
+Git:
+- Version control tool
+- Works locally
+- Tracks changes
+- Installed on computer
+
+GitHub:
+- Cloud hosting platform
+- Works online
+- Stores repositories
+- Accessed through browser
+
+Installation Process of Git
+
+Step 1: Open Git Website
+https://git-scm.com/
+
+Step 2: Download Git
+- Click Download for Windows
+
+Step 3: Run Installer
+- Open downloaded file
+- Click Next
+- Keep default settings
+
+Step 4: Install Git
+- Click Install
+
+Step 5: Finish Installation
+- Click Finish
+
+Verify Git Installation
+
+Open Command Prompt:
+git --version
+
+Create GitHub Account
+
+Step 1: Open GitHub
+https://github.com/
+
+Step 2: Click Sign Up
+
+Enter:
+- Email
+- Username
+- Password
+
+Step 3: Verify Email
+Complete email verification.
+
+Configure Git
+
+Configure Username
+git config --global user.name "Your Name"
+
+Configure Email
+git config --global user.email "yourmail@gmail.com"
+
+How to Upload a File to GitHub
+
+Method 1: Using Git Commands
+
+Step 1: Create Repository in GitHub
+- Login to GitHub
+- Click New Repository
+- Enter repository name
+- Click Create Repository
+
+Step 2: Open Project Folder
+cd myproject
+
+Step 3: Initialize Git
+git init
+
+Step 4: Add Files
+git add .
+
+Step 5: Commit Files
+git commit -m "First Upload"
+
+Step 6: Connect GitHub Repository
+git remote add origin repository_link
+
+Example:
+git remote add origin https://github.com/username/project.git
+
+Step 7: Upload Files to GitHub
+git push -u origin main
+
+Your files are now uploaded to GitHub.
+
+Method 2: Using GitHub Desktop
+
+What is GitHub Desktop?
+
+GitHub Desktop is a graphical application used to manage GitHub repositories easily.
+
+Installation of GitHub Desktop
+
+Step 1: Open Website
+https://desktop.github.com/
+
+Step 2: Download and Install
+- Download application
+- Run installer
+- Complete installation
+
+Step 3: Login to GitHub
+- Open GitHub Desktop
+- Sign in with GitHub account
+
+Upload File Using GitHub Desktop
+
+Step 1: Create Repository
+- File → New Repository
+
+Step 2: Add Project Files
+Copy files into repository folder.
+
+Step 3: Commit Changes
+- Enter commit message
+- Click Commit to main
+
+Step 4: Publish Repository
+- Click Publish Repository
+
+Project uploads to GitHub successfully.
+
+Conclusion
+
+- Git helps manage and track code changes.
+- GitHub stores projects online.
+- Together they help developers build, manage, share, and protect software projects efficiently.
